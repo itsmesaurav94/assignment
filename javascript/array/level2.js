@@ -12,7 +12,7 @@ console.log(max)
 
 const elementToRemove = 2;
 const NewArray = arr.pop()
-console.log(NewArray)
+// console.log(NewArray)
 console.log(arr)
 
 //Q3 Multiply each element of the array by a constant value 5 and log the modified array to the console.

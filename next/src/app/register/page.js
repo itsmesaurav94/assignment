@@ -1,11 +1,12 @@
-import { Navbar } from "@nextui-org/react"
+
+import CustomNavbar from "@/components/navbar/page";
 import {Button,Input} from "@nextui-org/react";
 
 
 const Register = () => {
     return (
       <div>
-        <Navbar/>
+        <CustomNavbar/>
         <div className="flex justify-center ">
         <div className='border border-black m-7 w-72 p-4 '>
             <Input type="email" label="Email" /> <br/>

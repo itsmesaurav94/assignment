@@ -1,13 +1,11 @@
-import React from "react";
 import {Navbar, NavbarBrand, NavbarContent, NavbarItem, Link, Button} from "@nextui-org/react";
 
 
-const Navbar = () => {
-    return (
+const CustomNavbar=()=> {
+  return (
     <Navbar>
       <NavbarBrand>
-        
-        <p className="font-bold text-inherit">ASTRO</p>
+        <p className="font-bold text-inherit">Astro</p>
       </NavbarBrand>
       <NavbarContent className="hidden sm:flex gap-4" justify="center">
         <NavbarItem>
@@ -27,7 +25,7 @@ const Navbar = () => {
         </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">
-        <NavbarItem className="lg:flex">
+        <NavbarItem className="hidden lg:flex">
           <Link href="#">Login</Link>
         </NavbarItem>
         <NavbarItem>
@@ -40,4 +38,5 @@ const Navbar = () => {
   );
 }
 
-export default Navbar()
+
+export default CustomNavbar

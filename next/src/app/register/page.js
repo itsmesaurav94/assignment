@@ -1,6 +1,8 @@
 
 import CustomNavbar from "@/components/navbar/page";
 import {Button,Input} from "@nextui-org/react";
+import Link from "next/link";
+
 
 
 const Register = () => {
@@ -14,8 +16,9 @@ const Register = () => {
             <Input  label="Address" /> <br/>
             <Input type="password" label="Password" /> <br/>
             <Button radius="full" className="bg-gradient-to-tr from-pink-500 to-yellow-500 text-white shadow-lg">
-          Submit
+          Register
         </Button>
+        Already have an account? <Link href="/login">Sign in</Link> instead.
         </div>
         </div>
       </div>
